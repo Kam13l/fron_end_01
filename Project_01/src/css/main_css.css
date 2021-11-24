@@ -1,0 +1,56 @@
+
+.divs {
+    display: table-cell;
+}
+body{
+    background-color: gray;
+    max-width: 800px;
+    
+}
+h1{
+    color: blue;
+    
+}
+#sidebar{
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: blue;
+    
+    top: 0;
+    left: 0;
+}
+#sidebar a {
+    text-decoration: none;
+    color: black;
+}
+#sidebar a:hover {
+    color: white;
+  }
+#main {
+    margin-left: 100px; 
+    padding: 0px 10px;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  table{
+      width: 100%;
+  }
+  th{
+      background-color: black;
+      color: white;
+  }
+  tr:nth-child(odd){background-color: white;}
+  tr:nth-child(even){background-color: darkgray;}
+  h3{
+      border: blue solid 3px;
+  }
+  #snowfox{
+      width: 100px;
+      float: right;
+      border-radius: 50%; 
+      filter: grayscale(100%);
+  }
